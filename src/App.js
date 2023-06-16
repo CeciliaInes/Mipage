@@ -5,7 +5,7 @@ import './App.css';
 import FilterList from './filter/FilterList';
 import TooltipText from './tooltip/TooltipText';
 import Formulario from './formulario/Formulario';
-
+ 
 function App() {
   return (
     <div className="App">
@@ -13,11 +13,13 @@ function App() {
       <PresentationCard/>
       <Counter/>
       <Temporizador/>
-      <FilterList/>
-      <>
+    
+          <FilterList/>
+      
+      <div>
         <p>Lorem este es mi tezto pero aqui quiero poner el <TooltipText tooltip={"Mensaje del Tooltip"}>tooltip</TooltipText>
          Lorem este es mi tezto pero aqui quiero poner el <TooltipText tooltip={"Dice hola"}>Este es un mensaje</TooltipText></p>
-      </>
+      </div>
 
       <Formulario></Formulario>
     </div>

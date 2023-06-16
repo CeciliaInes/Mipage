@@ -1,9 +1,15 @@
+import { useContext } from "react";
+import Searchinput from "../form/Searchinput";
+import { ItemsContext } from "../contexts/ItemsContext";
+import ResultCounts from "./ResultCounts";
 
 //Las funciones componentes reciben los props y se muestran en esta funcion
-function ListView({elements, funcFilterItems}){
+function ListView(){
+    let elements = useContext(ItemsContext);
     return (
         <>
-            <input type="text" onChange={ev => funcFilterItems(ev.target.value)}/>
+            <Searchinput/>
+            <ResultCounts/>
             <ul>
                 {
                   elements.map((nombre, index) => nombre && <li key={index}>{nombre}</li>)

@@ -1,0 +1,65 @@
+{
+    "Estudios":[
+        {
+            "id": 1,
+            "Casa de estudios": "Área 51 Trainning Center",
+            "Carrera/Curso":"Curso de HTML, CSS Y JQUERY",
+            "Duración": "3 meses",
+            "Año(s)": "2018"
+        },
+        {
+            "id": 2,
+            "Casa de estudios": "ISIL",
+            "Carrera/Curso":"Curso de HTML, CSS Y JQUERY",
+            "Duración": "3 meses",
+            "Año(s)": "2018"
+        },
+        {
+            "id": 3,
+            "Casa de estudios": "Laboratoria",
+            "Carrera/Curso":"Curso de HTML, CSS Y JQUERY",
+            "Duración": "3 meses",
+            "Año(s)": "2018"
+        }
+    ],
+    "Trabajos":[
+        {
+            "id": 1,
+            "Empresa": "Visual Creative",
+            "Cargo":"Programadora Web Junior",
+            "Tiempo de trabajo": "3 años",
+            "Año(s)": "2018, 2019 y 2020"
+        },
+        {
+            "id": 2,
+            "Empresa": "Ibella",
+            "Cargo":"Community Manager y desarrolladora web",
+            "Tiempo de trabajo": "1 año",
+            "Año(s)": "2021"
+        }
+    ],
+    "Contacto":[
+        {
+            "LinkedIn": "www.linkedin.com/in/ines-castañeda-886a46212",
+            "Correo": "inescastaneda885@gmail.com",
+            "Mi web": "https://mipage-ceciliaines.vercel.app/",
+            "Notion": "https://notion.com"
+        }
+    ],
+    "Technological skills":[
+
+        {
+            "Photoshop": "Intermedio",
+            "Excel": "Intermedio",
+            "SQL": "Intermedio-Avanzado",
+            "POWER BI": "Básico"
+        }    
+    ],
+    "Soft skills":[
+
+        [ 
+            "Comunicación asertiva","Pensamiento crítico", "Trabajo en equipo", "Autodesarrollo"
+        ]   
+    ]
+
+}
